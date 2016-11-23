@@ -23,7 +23,7 @@ Google Group for discussions, support, advice etc: [http://groups.google.co.uk/g
 On a Ubuntu system:
 
      cd ~
-     sudo apt-get -y install git
+     sudo apt-get update && sudo apt-get -y install git
      git clone https://github.com/robtweed/ewd-3-installers
      source ewd-3-installers/ewd-xpress/install_gtm.sh
 
@@ -32,7 +32,7 @@ On a Ubuntu system:
 On a Ubuntu system:
 
      cd ~
-     sudo apt-get -y install git
+     sudo apt-get update && sudo apt-get -y install git
      git clone https://github.com/robtweed/ewd-3-installers
      source ewd-3-installers/ewd-xpress/install_globalsdb.sh
 
